@@ -10,8 +10,7 @@ def produce_daily_summary(file, day):
         count = words[1]
         amount = words[2]
 
-        print("Delivered  {} {}s for total of ${}".format(
-        count, melon, amount))
+        print(f"Delivered  {count} {melon}s for total of ${amount}.")
     
     the_file.close()
 

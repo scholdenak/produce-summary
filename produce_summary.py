@@ -26,6 +26,12 @@ def produce_daily_summary(file, day):
 produce_daily_summary("um-deliveries-20140519.txt", "Day 1")
 #calls function on text report on specified date
 
+produce_daily_summary("um-deliveries-20140520.txt", "Day 2")
+#calls function for day two
+
+produce_daily_summary("um-deliveries-20140521.txt", "Day 3")
+#calls function for day three
+
 # print("Day 2")
 # the_file = open("um-deliveries-20140520.txt")
 # for line in the_file:
